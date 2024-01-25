@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial,italic;
+}
+
+header, nav, footer {
+    background-color:black;
+    color:yellow;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav a {
+    color: yellow; 
+    text-decoration: none;
+    font-size: larger;
+}
+nav a:hover {
+    color: pink; 
+    text-decoration: none;
+    background-color: #fff;
+}
+nav a::after {
+    color: red; 
+    text-decoration: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
